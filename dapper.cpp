@@ -168,7 +168,7 @@ int main() {
             score++;
         }
 
-        DrawText(TextFormat("%i", score), 10, 10, 20, WHITE);
+        DrawText(TextFormat("%i", score / 10), 10, 10, 20, WHITE);
         DrawText("Dapper Dash", win_w / 2 - 120, win_h + offset - 4, 60, WHITE);
         DrawText("Press [Space] to jump", win_w / 2 + 150, 10, 20, WHITE);
 
